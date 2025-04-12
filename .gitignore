@@ -15,7 +15,7 @@ __pycache__/
 build/
 develop-eggs/
 dist/
-downloads/
+#downloads/
 eggs/
 .eggs/
 lib/
@@ -181,5 +181,9 @@ Thumbs.db
 
 # Ignore archive functions
 archive.py
+
+# Keep downloads folder, ignore its contents
+downloads/*
+!downloads/.gitkeep
 
 # End of https://www.toptal.com/developers/gitignore/api/python
