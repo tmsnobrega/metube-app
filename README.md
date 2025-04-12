@@ -9,7 +9,7 @@
 ## 📸 Preview
 
 <p align="center">
-  <img src="./metube_screenshot.png" alt="MeTube UI Preview" width="600"/>
+  <img src="metube_screenshot.png" alt="MeTube UI Preview" width="600"/>
 </p>
 
 ---
