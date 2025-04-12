@@ -9,7 +9,7 @@
 ## 📸 Preview
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/alexta69/metube/master/screenshot.png" alt="MeTube UI Preview" width="600"/>
+  <img src="./metube_screenshot.png" alt="MeTube UI Preview" width="600"/>
 </p>
 
 ---
@@ -40,6 +40,7 @@ Then open your browser and go to:
 
 - All media is downloaded into the `downloads/` directory.
 - The **folder is tracked** in GitHub (for structure), but its **contents are excluded** via `.gitignore`.
+- This setting (download location) can be changed by modifying the volume paths in your `docker-compose.yml`.
 
 ---
 
@@ -47,9 +48,7 @@ Then open your browser and go to:
 
 ```
 metube-app/
-├── app/                   # Backend application (inside container)
-├── ui/                    # Web UI (pre-built via Docker)
-├── downloads/             # Media downloads (folder only)
+├── downloads/             # Media downloads
 ├── docker-compose.yml     # Docker setup and config
 └── README.md              
 ```
